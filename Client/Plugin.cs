@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Runtime.CompilerServices;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
@@ -9,19 +10,18 @@ using AdvancedMovement.Motion;
 using AdvancedMovement.Moves;
 using AdvancedMovement.Viewmodel;
 
+[assembly: InternalsVisibleTo("AdvancedMovement.Fika")]
+
 namespace AdvancedMovement
 {
     [BepInPlugin(Guid, Name, Version)]
     [BepInDependency("com.SPT.core", "4.1.0")]
-    [BepInDependency(FikaGuid, BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.sage.advancedmovement";
         public const string Name = "Advanced Movement";
         public const string Author = "Sage";
-        public const string Version = "1.0.0";
-
-        private const string FikaGuid = "com.fika.core";
+        public const string Version = "1.0.1";
 
         internal static ManualLogSource Log;
 
@@ -65,10 +65,6 @@ namespace AdvancedMovement
 
             var harmony = new Harmony(Guid);
             Patches.Apply(harmony);
-            if (BepInEx.Bootstrap.Chainloader.PluginInfos.ContainsKey(FikaGuid))
-            {
-                TryPatch(harmony, "Fika sync", InitFika);
-            }
 
             Log.LogInfo($"{Name} {Version} by {Author} loaded" + (_failedPatches > 0 ? $" ({_failedPatches} patch(es) failed, see above)" : string.Empty));
         }
@@ -84,12 +80,6 @@ namespace AdvancedMovement
                 _failedPatches++;
                 Log.LogError($"{name} could not be patched, that feature is off: {ex.Message}");
             }
-        }
-
-        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-        private static void InitFika(Harmony harmony)
-        {
-            Sync.FikaSync.Init(harmony);
         }
 
         private static MotionProfile LoadOptional(string path)

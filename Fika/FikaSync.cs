@@ -9,8 +9,9 @@ using Fika.Core.Networking.LiteNetLib;
 using Fika.Core.Networking.LiteNetLib.Utils;
 using HarmonyLib;
 using AdvancedMovement.Body;
+using AdvancedMovement.Sync;
 
-namespace AdvancedMovement.Sync
+namespace AdvancedMovement.Coop
 {
     internal struct BodyPacket : INetSerializable
     {
@@ -47,7 +48,7 @@ namespace AdvancedMovement.Sync
             harmony.Patch(AccessTools.Method(typeof(ObservedPlayer), "ObservedVisualPass"),
                 prefix: new HarmonyMethod(typeof(FikaSync), nameof(ObservedVisualPassPrefix)));
             BodySync.Send = Send;
-            Plugin.Log.LogInfo("Fika found: slide, jump and dive animations are shared with other players");
+            AdvancedMovement.Plugin.Log.LogInfo("Fika found: slide, jump and dive animations are shared with other players");
         }
 
         private static void OnManagerCreated(FikaNetworkManagerCreatedEvent e)
@@ -99,7 +100,7 @@ namespace AdvancedMovement.Sync
             }
             catch (Exception ex)
             {
-                Plugin.Log.LogWarning("Could not play another player's body animation: " + ex.Message);
+                AdvancedMovement.Plugin.Log.LogWarning("Could not play another player's body animation: " + ex.Message);
             }
         }
 
@@ -111,7 +112,7 @@ namespace AdvancedMovement.Sync
             }
             catch (Exception ex)
             {
-                Plugin.Log.LogWarning("Another player's body animation failed and was stopped: " + ex.Message);
+                AdvancedMovement.Plugin.Log.LogWarning("Another player's body animation failed and was stopped: " + ex.Message);
                 BodyPlayer.Receive(__instance, new BodyOp { Type = BodyOpType.Stop });
             }
         }

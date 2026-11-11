@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>AdvancedMovement.Fika</AssemblyName>
+    <RootNamespace>AdvancedMovement.Coop</RootNamespace>
+    <Version>1.0.1</Version>
+    <Authors>Sage</Authors>
+    <Product>Advanced Movement Fika Sync</Product>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <DebugType>none</DebugType>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+
+    <SptDir Condition="'$(SptDir)' == ''">E:\SPT 4.1</SptDir>
+    <Managed>$(SptDir)\EscapeFromTarkov_Data\Managed</Managed>
+    <BepInExCore>$(SptDir)\BepInEx\core</BepInExCore>
+    <FikaPlugin>$(SptDir)\BepInEx\plugins\Fika</FikaPlugin>
+
+    <Deploy Condition="'$(Deploy)' == ''">false</Deploy>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\AdvancedMovement.csproj" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony" HintPath="$(BepInExCore)\0Harmony.dll" Private="false" />
+    <Reference Include="BepInEx" HintPath="$(BepInExCore)\BepInEx.dll" Private="false" />
+    <Reference Include="Assembly-CSharp" HintPath="$(Managed)\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="Comfort" HintPath="$(Managed)\Comfort.dll" Private="false" />
+    <Reference Include="UnityEngine" HintPath="$(Managed)\UnityEngine.dll" Private="false" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(Managed)\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="Fika.Core" HintPath="$(FikaPlugin)\Fika.Core.dll" Private="false" />
+  </ItemGroup>
+
+  <Target Name="DeployToSpt" AfterTargets="Build" Condition="'$(Deploy)' == 'true'">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SptDir)\BepInEx\plugins\AdvancedMovement" SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>AdvancedMovement</AssemblyName>
     <RootNamespace>AdvancedMovement</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Sage</Authors>
     <Product>Advanced Movement</Product>
     <LangVersion>latest</LangVersion>
@@ -17,7 +17,6 @@
     <SptDir Condition="'$(SptDir)' == ''">E:\SPT 4.1</SptDir>
     <Managed>$(SptDir)\EscapeFromTarkov_Data\Managed</Managed>
     <BepInExCore>$(SptDir)\BepInEx\core</BepInExCore>
-    <FikaPlugin>$(SptDir)\BepInEx\plugins\Fika</FikaPlugin>
 
     <Deploy Condition="'$(Deploy)' == ''">false</Deploy>
   </PropertyGroup>
@@ -38,7 +37,6 @@
     <Reference Include="UnityEngine.InputLegacyModule" HintPath="$(Managed)\UnityEngine.InputLegacyModule.dll" Private="false" />
     <Reference Include="UnityEngine.PhysicsModule" HintPath="$(Managed)\UnityEngine.PhysicsModule.dll" Private="false" />
     <Reference Include="Newtonsoft.Json" HintPath="$(Managed)\Newtonsoft.Json.dll" Private="false" />
-    <Reference Include="Fika.Core" HintPath="$(FikaPlugin)\Fika.Core.dll" Private="false" />
   </ItemGroup>
 
   <Target Name="DeployToSpt" AfterTargets="Build" Condition="'$(Deploy)' == 'true'">
