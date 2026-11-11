@@ -1,0 +1,1485 @@
+{
+ "format": "advancedmovement.sounds.v1",
+ "cues": {
+  "slide_start": {
+   "bark": [
+    {
+     "file": "slide_surfaces/bark/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "carpet": [
+    {
+     "file": "slide_surfaces/carpet/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "concrete": [
+    {
+     "file": "slide_surfaces/concrete/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "concrete_grit": [
+    {
+     "file": "slide_surfaces/concrete_grit/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "dirt": [
+    {
+     "file": "slide_surfaces/dirt/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "glass": [
+    {
+     "file": "slide_surfaces/glass/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "grass": [
+    {
+     "file": "slide_surfaces/grass/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "gravel": [
+    {
+     "file": "slide_surfaces/gravel/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_car": [
+    {
+     "file": "slide_surfaces/metal_car/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_grate": [
+    {
+     "file": "slide_surfaces/metal_grate/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_helicopter": [
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_thick": [
+    {
+     "file": "slide_surfaces/metal_thick/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "mud": [
+    {
+     "file": "slide_surfaces/mud/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "plastic": [
+    {
+     "file": "slide_surfaces/plastic/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "sand": [
+    {
+     "file": "slide_surfaces/sand/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "snow": [
+    {
+     "file": "slide_surfaces/snow/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "tile": [
+    {
+     "file": "slide_surfaces/tile/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "wood_floor": [
+    {
+     "file": "slide_surfaces/wood_floor/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "wood_solid": [
+    {
+     "file": "slide_surfaces/wood_solid/slide_start_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_start_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_start_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_start_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_start_05.wav",
+     "volume": 0.85
+    }
+   ]
+  },
+  "slide_loop": {
+   "carpet": [
+    {
+     "file": "slide_surfaces/carpet/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "concrete": [
+    {
+     "file": "slide_surfaces/concrete/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "concrete_grit": [
+    {
+     "file": "slide_surfaces/concrete_grit/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "dirt": [
+    {
+     "file": "slide_surfaces/dirt/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "glass": [
+    {
+     "file": "slide_surfaces/glass/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "grass": [
+    {
+     "file": "slide_surfaces/grass/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "gravel": [
+    {
+     "file": "slide_surfaces/gravel/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_car": [
+    {
+     "file": "slide_surfaces/metal_car/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_grate": [
+    {
+     "file": "slide_surfaces/metal_grate/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_helicopter": [
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_loop_01.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_thick": [
+    {
+     "file": "slide_surfaces/metal_thick/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "mud": [
+    {
+     "file": "slide_surfaces/mud/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "plastic": [
+    {
+     "file": "slide_surfaces/plastic/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "sand": [
+    {
+     "file": "slide_surfaces/sand/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "snow": [
+    {
+     "file": "slide_surfaces/snow/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "tile": [
+    {
+     "file": "slide_surfaces/tile/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_loop_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_loop_03.wav",
+     "volume": 0.85
+    }
+   ],
+   "wood_floor": [
+    {
+     "file": "slide_surfaces/wood_floor/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ],
+   "wood_solid": [
+    {
+     "file": "slide_surfaces/wood_solid/slide_loop_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_loop_02.wav",
+     "volume": 0.85
+    }
+   ]
+  },
+  "slide_ease_out": {
+   "bark": [
+    {
+     "file": "slide_surfaces/bark/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/bark/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "carpet": [
+    {
+     "file": "slide_surfaces/carpet/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/carpet/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "concrete": [
+    {
+     "file": "slide_surfaces/concrete/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "concrete_grit": [
+    {
+     "file": "slide_surfaces/concrete_grit/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/concrete_grit/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "dirt": [
+    {
+     "file": "slide_surfaces/dirt/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/dirt/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "glass": [
+    {
+     "file": "slide_surfaces/glass/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/glass/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "grass": [
+    {
+     "file": "slide_surfaces/grass/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/grass/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "gravel": [
+    {
+     "file": "slide_surfaces/gravel/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/gravel/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_car": [
+    {
+     "file": "slide_surfaces/metal_car/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_car/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_grate": [
+    {
+     "file": "slide_surfaces/metal_grate/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_grate/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_helicopter": [
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_helicopter/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "metal_thick": [
+    {
+     "file": "slide_surfaces/metal_thick/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/metal_thick/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "mud": [
+    {
+     "file": "slide_surfaces/mud/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/mud/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "plastic": [
+    {
+     "file": "slide_surfaces/plastic/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/plastic/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "sand": [
+    {
+     "file": "slide_surfaces/sand/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/sand/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "snow": [
+    {
+     "file": "slide_surfaces/snow/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/snow/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "tile": [
+    {
+     "file": "slide_surfaces/tile/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/tile/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "wood_floor": [
+    {
+     "file": "slide_surfaces/wood_floor/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_floor/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ],
+   "wood_solid": [
+    {
+     "file": "slide_surfaces/wood_solid/slide_ease_out_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_ease_out_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_ease_out_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_ease_out_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "slide_surfaces/wood_solid/slide_ease_out_05.wav",
+     "volume": 0.85
+    }
+   ]
+  },
+  "weapon_rattle": {
+   "beltfed": [
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_01.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_02.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_03.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_04.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_05.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_06.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_07.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_08.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_09.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_10.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_11.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_12.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_13.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_14.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_15.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/beltfed/weapon_rattle_16.wav",
+     "volume": 0.75
+    }
+   ],
+   "large": [
+    {
+     "file": "weapon_rattle/large/weapon_rattle_01.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_02.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_03.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_04.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_05.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_06.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_07.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_08.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_09.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_10.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_11.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_12.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_13.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_14.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_15.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_16.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_17.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/large/weapon_rattle_18.wav",
+     "volume": 0.75
+    }
+   ],
+   "launcher": [
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_01.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_02.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_03.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_04.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_05.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_06.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_07.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_08.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_09.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_10.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_11.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_12.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_13.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/launcher/weapon_rattle_14.wav",
+     "volume": 0.75
+    }
+   ],
+   "lmg": [
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_01.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_02.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_03.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_04.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_05.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_06.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_07.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_08.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_09.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_10.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_11.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_12.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_13.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_14.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/lmg/weapon_rattle_15.wav",
+     "volume": 0.75
+    }
+   ],
+   "medium": [
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_01.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_02.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_03.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_04.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_05.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_06.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_07.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_08.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_09.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_10.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_11.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_12.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_13.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/medium/weapon_rattle_14.wav",
+     "volume": 0.75
+    }
+   ],
+   "small": [
+    {
+     "file": "weapon_rattle/small/weapon_rattle_01.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_02.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_03.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_04.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_05.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_06.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_07.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_08.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_09.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_10.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_11.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_12.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "weapon_rattle/small/weapon_rattle_13.wav",
+     "volume": 0.75
+    }
+   ]
+  },
+  "dive_land": {
+   "default": [
+    {
+     "file": "dive/dive_land_01.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "dive/dive_land_02.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "dive/dive_land_03.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "dive/dive_land_04.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "dive/dive_land_05.wav",
+     "volume": 0.75
+    },
+    {
+     "file": "dive/dive_land_06.wav",
+     "volume": 0.75
+    }
+   ]
+  },
+  "dive_jump": {
+   "default": [
+    {
+     "file": "dive/dive_jump_01.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "dive/dive_jump_02.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "dive/dive_jump_03.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "dive/dive_jump_04.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "dive/dive_jump_05.wav",
+     "volume": 0.85
+    },
+    {
+     "file": "dive/dive_jump_06.wav",
+     "volume": 0.85
+    }
+   ]
+  }
+ }
+}
